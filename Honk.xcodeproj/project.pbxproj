@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BEE556D24BDF9CD00E830A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE556C24BDF9CD00E830A7 /* AppDelegate.swift */; };
+		0BEE556F24BDF9CD00E830A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE556E24BDF9CD00E830A7 /* SceneDelegate.swift */; };
+		0BEE557124BDF9CD00E830A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE557024BDF9CD00E830A7 /* ViewController.swift */; };
+		0BEE557424BDF9CD00E830A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE557224BDF9CD00E830A7 /* Main.storyboard */; };
+		0BEE557624BDF9D100E830A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE557524BDF9D100E830A7 /* Assets.xcassets */; };
+		0BEE557924BDF9D100E830A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE557724BDF9D100E830A7 /* LaunchScreen.storyboard */; };
+		0BEE559024BE4E2900E830A7 /* Honk-glass1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE558224BE4E2800E830A7 /* Honk-glass1.wav */; };
+		0BEE559124BE4E2900E830A7 /* Honk-lid3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE558324BE4E2800E830A7 /* Honk-lid3.wav */; };
+		0BEE559224BE4E2900E830A7 /* Honk-muffled3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE558424BE4E2800E830A7 /* Honk-muffled3.wav */; };
+		0BEE559324BE4E2900E830A7 /* Honk-muffled2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE558524BE4E2800E830A7 /* Honk-muffled2.wav */; };
+		0BEE559424BE4E2900E830A7 /* Honk3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE558624BE4E2800E830A7 /* Honk3.wav */; };
+		0BEE559524BE4E2900E830A7 /* Honk1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE558724BE4E2800E830A7 /* Honk1.wav */; };
+		0BEE559624BE4E2900E830A7 /* Honk-lid2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE558824BE4E2800E830A7 /* Honk-lid2.wav */; };
+		0BEE559724BE4E2900E830A7 /* Honk-lid1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE558924BE4E2800E830A7 /* Honk-lid1.wav */; };
+		0BEE559824BE4E2900E830A7 /* Honk2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE558A24BE4E2800E830A7 /* Honk2.wav */; };
+		0BEE559924BE4E2900E830A7 /* Honk-muffled1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE558B24BE4E2900E830A7 /* Honk-muffled1.wav */; };
+		0BEE559A24BE4E2900E830A7 /* Honk4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE558C24BE4E2900E830A7 /* Honk4.wav */; };
+		0BEE559B24BE4E2900E830A7 /* Honk-glass2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE558D24BE4E2900E830A7 /* Honk-glass2.wav */; };
+		0BEE559C24BE4E2900E830A7 /* Honk-glass4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE558E24BE4E2900E830A7 /* Honk-glass4.wav */; };
+		0BEE559D24BE4E2900E830A7 /* Honk-glass3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BEE558F24BE4E2900E830A7 /* Honk-glass3.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BEE556924BDF9CD00E830A7 /* Honk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BEE556C24BDF9CD00E830A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BEE556E24BDF9CD00E830A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0BEE557024BDF9CD00E830A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BEE557324BDF9CD00E830A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BEE557524BDF9D100E830A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BEE557824BDF9D100E830A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BEE557A24BDF9D100E830A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BEE558224BE4E2800E830A7 /* Honk-glass1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Honk-glass1.wav"; sourceTree = "<group>"; };
+		0BEE558324BE4E2800E830A7 /* Honk-lid3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Honk-lid3.wav"; sourceTree = "<group>"; };
+		0BEE558424BE4E2800E830A7 /* Honk-muffled3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Honk-muffled3.wav"; sourceTree = "<group>"; };
+		0BEE558524BE4E2800E830A7 /* Honk-muffled2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Honk-muffled2.wav"; sourceTree = "<group>"; };
+		0BEE558624BE4E2800E830A7 /* Honk3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Honk3.wav; sourceTree = "<group>"; };
+		0BEE558724BE4E2800E830A7 /* Honk1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Honk1.wav; sourceTree = "<group>"; };
+		0BEE558824BE4E2800E830A7 /* Honk-lid2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Honk-lid2.wav"; sourceTree = "<group>"; };
+		0BEE558924BE4E2800E830A7 /* Honk-lid1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Honk-lid1.wav"; sourceTree = "<group>"; };
+		0BEE558A24BE4E2800E830A7 /* Honk2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Honk2.wav; sourceTree = "<group>"; };
+		0BEE558B24BE4E2900E830A7 /* Honk-muffled1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Honk-muffled1.wav"; sourceTree = "<group>"; };
+		0BEE558C24BE4E2900E830A7 /* Honk4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Honk4.wav; sourceTree = "<group>"; };
+		0BEE558D24BE4E2900E830A7 /* Honk-glass2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Honk-glass2.wav"; sourceTree = "<group>"; };
+		0BEE558E24BE4E2900E830A7 /* Honk-glass4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Honk-glass4.wav"; sourceTree = "<group>"; };
+		0BEE558F24BE4E2900E830A7 /* Honk-glass3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Honk-glass3.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BEE556624BDF9CD00E830A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BEE556024BDF9CD00E830A7 = {
+			isa = PBXGroup;
+			children = (
+				0BEE556B24BDF9CD00E830A7 /* Honk */,
+				0BEE556A24BDF9CD00E830A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BEE556A24BDF9CD00E830A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BEE556924BDF9CD00E830A7 /* Honk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BEE556B24BDF9CD00E830A7 /* Honk */ = {
+			isa = PBXGroup;
+			children = (
+				0BEE558224BE4E2800E830A7 /* Honk-glass1.wav */,
+				0BEE558D24BE4E2900E830A7 /* Honk-glass2.wav */,
+				0BEE558F24BE4E2900E830A7 /* Honk-glass3.wav */,
+				0BEE558E24BE4E2900E830A7 /* Honk-glass4.wav */,
+				0BEE558924BE4E2800E830A7 /* Honk-lid1.wav */,
+				0BEE558824BE4E2800E830A7 /* Honk-lid2.wav */,
+				0BEE558324BE4E2800E830A7 /* Honk-lid3.wav */,
+				0BEE558B24BE4E2900E830A7 /* Honk-muffled1.wav */,
+				0BEE558524BE4E2800E830A7 /* Honk-muffled2.wav */,
+				0BEE558424BE4E2800E830A7 /* Honk-muffled3.wav */,
+				0BEE558724BE4E2800E830A7 /* Honk1.wav */,
+				0BEE558A24BE4E2800E830A7 /* Honk2.wav */,
+				0BEE558624BE4E2800E830A7 /* Honk3.wav */,
+				0BEE558C24BE4E2900E830A7 /* Honk4.wav */,
+				0BEE556C24BDF9CD00E830A7 /* AppDelegate.swift */,
+				0BEE556E24BDF9CD00E830A7 /* SceneDelegate.swift */,
+				0BEE557024BDF9CD00E830A7 /* ViewController.swift */,
+				0BEE557224BDF9CD00E830A7 /* Main.storyboard */,
+				0BEE557524BDF9D100E830A7 /* Assets.xcassets */,
+				0BEE557724BDF9D100E830A7 /* LaunchScreen.storyboard */,
+				0BEE557A24BDF9D100E830A7 /* Info.plist */,
+			);
+			path = Honk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BEE556824BDF9CD00E830A7 /* Honk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BEE557D24BDF9D100E830A7 /* Build configuration list for PBXNativeTarget "Honk" */;
+			buildPhases = (
+				0BEE556524BDF9CD00E830A7 /* Sources */,
+				0BEE556624BDF9CD00E830A7 /* Frameworks */,
+				0BEE556724BDF9CD00E830A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Honk;
+			productName = Honk;
+			productReference = 0BEE556924BDF9CD00E830A7 /* Honk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BEE556124BDF9CD00E830A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = kenkl;
+				TargetAttributes = {
+					0BEE556824BDF9CD00E830A7 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 0BEE556424BDF9CD00E830A7 /* Build configuration list for PBXProject "Honk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BEE556024BDF9CD00E830A7;
+			productRefGroup = 0BEE556A24BDF9CD00E830A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BEE556824BDF9CD00E830A7 /* Honk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BEE556724BDF9CD00E830A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEE559B24BE4E2900E830A7 /* Honk-glass2.wav in Resources */,
+				0BEE559424BE4E2900E830A7 /* Honk3.wav in Resources */,
+				0BEE559A24BE4E2900E830A7 /* Honk4.wav in Resources */,
+				0BEE559724BE4E2900E830A7 /* Honk-lid1.wav in Resources */,
+				0BEE559224BE4E2900E830A7 /* Honk-muffled3.wav in Resources */,
+				0BEE559924BE4E2900E830A7 /* Honk-muffled1.wav in Resources */,
+				0BEE559C24BE4E2900E830A7 /* Honk-glass4.wav in Resources */,
+				0BEE559324BE4E2900E830A7 /* Honk-muffled2.wav in Resources */,
+				0BEE557924BDF9D100E830A7 /* LaunchScreen.storyboard in Resources */,
+				0BEE557624BDF9D100E830A7 /* Assets.xcassets in Resources */,
+				0BEE559124BE4E2900E830A7 /* Honk-lid3.wav in Resources */,
+				0BEE557424BDF9CD00E830A7 /* Main.storyboard in Resources */,
+				0BEE559024BE4E2900E830A7 /* Honk-glass1.wav in Resources */,
+				0BEE559524BE4E2900E830A7 /* Honk1.wav in Resources */,
+				0BEE559624BE4E2900E830A7 /* Honk-lid2.wav in Resources */,
+				0BEE559824BE4E2900E830A7 /* Honk2.wav in Resources */,
+				0BEE559D24BE4E2900E830A7 /* Honk-glass3.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BEE556524BDF9CD00E830A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEE557124BDF9CD00E830A7 /* ViewController.swift in Sources */,
+				0BEE556D24BDF9CD00E830A7 /* AppDelegate.swift in Sources */,
+				0BEE556F24BDF9CD00E830A7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BEE557224BDF9CD00E830A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BEE557324BDF9CD00E830A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BEE557724BDF9D100E830A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BEE557824BDF9D100E830A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BEE557B24BDF9D100E830A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BEE557C24BDF9D100E830A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BEE557E24BDF9D100E830A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6W88TX5JBD;
+				INFOPLIST_FILE = Honk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.kenkl.Honk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BEE557F24BDF9D100E830A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6W88TX5JBD;
+				INFOPLIST_FILE = Honk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.kenkl.Honk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BEE556424BDF9CD00E830A7 /* Build configuration list for PBXProject "Honk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEE557B24BDF9D100E830A7 /* Debug */,
+				0BEE557C24BDF9D100E830A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BEE557D24BDF9D100E830A7 /* Build configuration list for PBXNativeTarget "Honk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEE557E24BDF9D100E830A7 /* Debug */,
+				0BEE557F24BDF9D100E830A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BEE556124BDF9CD00E830A7 /* Project object */;
+}

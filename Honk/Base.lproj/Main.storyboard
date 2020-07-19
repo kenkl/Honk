@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Honk" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="H2f-AJ-B5r" userLabel="Parent Stack View">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="15z-Dh-Riv" userLabel="titleView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="204.66666666666666"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Horrible Goose Sounds" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1uD-Vl-YUj">
+                                                <rect key="frame" x="58" y="104.33333333333334" width="298" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="1uD-Vl-YUj" firstAttribute="centerY" secondItem="15z-Dh-Riv" secondAttribute="centerY" constant="20" id="Qyi-4y-lkS"/>
+                                            <constraint firstItem="1uD-Vl-YUj" firstAttribute="centerX" secondItem="15z-Dh-Riv" secondAttribute="centerX" id="g5K-Qe-aEI"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="1re-V2-LVE" userLabel="row 1">
+                                        <rect key="frame" x="0.0" y="204.66666666666663" width="301" height="204.33333333333337"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XG5-zr-9mn" userLabel="outsideView">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="204.33333333333334"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3RA-tP-jnF">
+                                                        <rect key="frame" x="0.0" y="0.0" width="150" height="204.33333333333334"/>
+                                                        <state key="normal" title="Honk">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="honkButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pJp-5U-aHg"/>
+                                                        </connections>
+                                                    </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="honk_outside_sq" translatesAutoresizingMaskIntoConstraints="NO" id="1Ua-I7-T72">
+                                                        <rect key="frame" x="0.0" y="0.0" width="150" height="204.33333333333334"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="1Ua-I7-T72" firstAttribute="trailing" secondItem="XG5-zr-9mn" secondAttribute="trailing" id="5hN-IR-bOZ"/>
+                                                    <constraint firstItem="3RA-tP-jnF" firstAttribute="bottom" secondItem="XG5-zr-9mn" secondAttribute="bottom" id="FjO-e0-d8s"/>
+                                                    <constraint firstItem="3RA-tP-jnF" firstAttribute="top" secondItem="XG5-zr-9mn" secondAttribute="top" id="Kk8-dG-TzL"/>
+                                                    <constraint firstItem="1Ua-I7-T72" firstAttribute="bottom" secondItem="XG5-zr-9mn" secondAttribute="bottom" id="aGP-4Y-ifr"/>
+                                                    <constraint firstItem="1Ua-I7-T72" firstAttribute="top" secondItem="XG5-zr-9mn" secondAttribute="top" id="gqz-V1-pK3"/>
+                                                    <constraint firstItem="3RA-tP-jnF" firstAttribute="trailing" secondItem="XG5-zr-9mn" secondAttribute="trailing" id="iUj-Xg-yLd"/>
+                                                    <constraint firstItem="3RA-tP-jnF" firstAttribute="leading" secondItem="XG5-zr-9mn" secondAttribute="leading" id="nyp-kP-BoV"/>
+                                                    <constraint firstItem="1Ua-I7-T72" firstAttribute="leading" secondItem="XG5-zr-9mn" secondAttribute="leading" id="vin-6A-jUV"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7s9-Sw-4JU" userLabel="echoView">
+                                                <rect key="frame" x="151" y="0.0" width="150" height="204.33333333333334"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="urw-Td-mqu">
+                                                        <rect key="frame" x="0.0" y="0.0" width="150" height="204.33333333333334"/>
+                                                        <state key="normal" title="Honk-lid">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="honkButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZK1-Vu-3g3"/>
+                                                        </connections>
+                                                    </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="honk_echo" translatesAutoresizingMaskIntoConstraints="NO" id="Xpn-BB-Lyg">
+                                                        <rect key="frame" x="0.0" y="0.0" width="150" height="204.33333333333334"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="urw-Td-mqu" firstAttribute="trailing" secondItem="7s9-Sw-4JU" secondAttribute="trailing" id="Aqt-Hn-pT0"/>
+                                                    <constraint firstItem="Xpn-BB-Lyg" firstAttribute="trailing" secondItem="7s9-Sw-4JU" secondAttribute="trailing" id="G2t-YR-N8K"/>
+                                                    <constraint firstItem="Xpn-BB-Lyg" firstAttribute="bottom" secondItem="7s9-Sw-4JU" secondAttribute="bottom" id="UhC-mx-34d"/>
+                                                    <constraint firstItem="urw-Td-mqu" firstAttribute="top" secondItem="7s9-Sw-4JU" secondAttribute="top" id="ZUb-Df-E1g"/>
+                                                    <constraint firstItem="Xpn-BB-Lyg" firstAttribute="leading" secondItem="7s9-Sw-4JU" secondAttribute="leading" id="d4c-RV-3JB"/>
+                                                    <constraint firstItem="Xpn-BB-Lyg" firstAttribute="top" secondItem="7s9-Sw-4JU" secondAttribute="top" id="guz-1a-5H6"/>
+                                                    <constraint firstItem="urw-Td-mqu" firstAttribute="bottom" secondItem="7s9-Sw-4JU" secondAttribute="bottom" id="jyC-tx-aSc"/>
+                                                    <constraint firstItem="urw-Td-mqu" firstAttribute="leading" secondItem="7s9-Sw-4JU" secondAttribute="leading" id="qJx-6I-HUD"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="NB6-UX-9Mg" userLabel="row 2">
+                                        <rect key="frame" x="0.0" y="409" width="331" height="204.66666666666663"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Gd-gd-sVz" userLabel="bottleView">
+                                                <rect key="frame" x="0.0" y="0.0" width="165" height="204.66666666666666"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gqJ-KT-YBx">
+                                                        <rect key="frame" x="0.0" y="0.0" width="165" height="204.66666666666666"/>
+                                                        <state key="normal" title="Honk-glass">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="honkButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lsk-1K-SBW"/>
+                                                        </connections>
+                                                    </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="honk_bottle" translatesAutoresizingMaskIntoConstraints="NO" id="KUG-RI-dKa">
+                                                        <rect key="frame" x="0.0" y="0.0" width="165" height="204.66666666666666"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="gqJ-KT-YBx" firstAttribute="top" secondItem="6Gd-gd-sVz" secondAttribute="top" id="3Qh-et-YF2"/>
+                                                    <constraint firstItem="KUG-RI-dKa" firstAttribute="bottom" secondItem="6Gd-gd-sVz" secondAttribute="bottom" id="9Nd-c6-Zc1"/>
+                                                    <constraint firstItem="gqJ-KT-YBx" firstAttribute="trailing" secondItem="6Gd-gd-sVz" secondAttribute="trailing" id="GAo-0o-Rz0"/>
+                                                    <constraint firstItem="gqJ-KT-YBx" firstAttribute="bottom" secondItem="6Gd-gd-sVz" secondAttribute="bottom" id="GB9-98-HbX"/>
+                                                    <constraint firstItem="gqJ-KT-YBx" firstAttribute="leading" secondItem="6Gd-gd-sVz" secondAttribute="leading" id="SdY-tx-Xo0"/>
+                                                    <constraint firstItem="KUG-RI-dKa" firstAttribute="trailing" secondItem="6Gd-gd-sVz" secondAttribute="trailing" id="WR2-cI-7ax"/>
+                                                    <constraint firstItem="KUG-RI-dKa" firstAttribute="top" secondItem="6Gd-gd-sVz" secondAttribute="top" id="r1x-ck-b8o"/>
+                                                    <constraint firstItem="KUG-RI-dKa" firstAttribute="leading" secondItem="6Gd-gd-sVz" secondAttribute="leading" id="yOS-du-E4I"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EOT-aM-6VR" userLabel="muffledView">
+                                                <rect key="frame" x="166" y="0.0" width="165" height="204.66666666666666"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bVL-bd-IbR">
+                                                        <rect key="frame" x="0.0" y="0.0" width="165" height="204.66666666666666"/>
+                                                        <state key="normal" title="Honk-muffled">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="honkButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fGD-A6-Fva"/>
+                                                        </connections>
+                                                    </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="honk_muffled" translatesAutoresizingMaskIntoConstraints="NO" id="5c2-i8-Fcv">
+                                                        <rect key="frame" x="0.0" y="0.0" width="165" height="204.66666666666666"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="bVL-bd-IbR" firstAttribute="leading" secondItem="EOT-aM-6VR" secondAttribute="leading" id="S9Z-1h-6p9"/>
+                                                    <constraint firstItem="bVL-bd-IbR" firstAttribute="top" secondItem="EOT-aM-6VR" secondAttribute="top" id="TtV-G5-uSB"/>
+                                                    <constraint firstItem="bVL-bd-IbR" firstAttribute="trailing" secondItem="EOT-aM-6VR" secondAttribute="trailing" id="Z5u-VG-tUw"/>
+                                                    <constraint firstItem="5c2-i8-Fcv" firstAttribute="top" secondItem="EOT-aM-6VR" secondAttribute="top" id="a2H-7j-i3G"/>
+                                                    <constraint firstItem="bVL-bd-IbR" firstAttribute="bottom" secondItem="EOT-aM-6VR" secondAttribute="bottom" id="ggG-Ku-qbJ"/>
+                                                    <constraint firstItem="5c2-i8-Fcv" firstAttribute="trailing" secondItem="EOT-aM-6VR" secondAttribute="trailing" id="h4f-Ef-dzL"/>
+                                                    <constraint firstItem="5c2-i8-Fcv" firstAttribute="leading" secondItem="EOT-aM-6VR" secondAttribute="leading" id="kti-UB-fmD"/>
+                                                    <constraint firstItem="5c2-i8-Fcv" firstAttribute="bottom" secondItem="EOT-aM-6VR" secondAttribute="bottom" id="tAr-QN-wUC"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="EJB-0y-0Oi" userLabel="row 3 - Dummy Stack View">
+                                        <rect key="frame" x="0.0" y="613.66666666666663" width="414" height="204.33333333333337"/>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="15z-Dh-Riv" firstAttribute="top" secondItem="H2f-AJ-B5r" secondAttribute="top" id="1LL-hc-85u"/>
+                                    <constraint firstItem="15z-Dh-Riv" firstAttribute="trailing" secondItem="H2f-AJ-B5r" secondAttribute="trailing" id="3lg-WJ-sUW"/>
+                                    <constraint firstItem="EJB-0y-0Oi" firstAttribute="trailing" secondItem="H2f-AJ-B5r" secondAttribute="trailing" id="6cp-pV-BgD"/>
+                                    <constraint firstItem="EJB-0y-0Oi" firstAttribute="bottom" secondItem="H2f-AJ-B5r" secondAttribute="bottom" id="N6o-fA-4aL"/>
+                                    <constraint firstItem="EJB-0y-0Oi" firstAttribute="leading" secondItem="H2f-AJ-B5r" secondAttribute="leading" id="RKZ-I3-l3c"/>
+                                    <constraint firstItem="EJB-0y-0Oi" firstAttribute="top" secondItem="NB6-UX-9Mg" secondAttribute="bottom" id="YPP-4i-B7S"/>
+                                    <constraint firstItem="15z-Dh-Riv" firstAttribute="leading" secondItem="H2f-AJ-B5r" secondAttribute="leading" id="aRi-FD-Bqz"/>
+                                    <constraint firstItem="15z-Dh-Riv" firstAttribute="bottom" secondItem="1re-V2-LVE" secondAttribute="top" id="e9d-WV-5Ux"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.19855660237720923" green="0.19910426488471289" blue="0.20746152084248692" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="H2f-AJ-B5r" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cT4-C8-mck"/>
+                            <constraint firstItem="H2f-AJ-B5r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fUY-xf-YIu"/>
+                            <constraint firstItem="H2f-AJ-B5r" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="hoJ-WC-3rc"/>
+                            <constraint firstItem="H2f-AJ-B5r" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="r4Z-sY-4pz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="honk_bottle" width="165" height="165"/>
+        <image name="honk_echo" width="145.66667175292969" height="145.66667175292969"/>
+        <image name="honk_muffled" width="95" height="95"/>
+        <image name="honk_outside_sq" width="143" height="143"/>
+    </resources>
+</document>
