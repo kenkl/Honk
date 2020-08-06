@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B930F6924DC4B66007BBAB2 /* modelGoose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B930F6824DC4B66007BBAB2 /* modelGoose.swift */; };
+		0BCA561B24DAEF2300711462 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0BCA561A24DAEF2300711462 /* README.md */; };
 		0BEE556D24BDF9CD00E830A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE556C24BDF9CD00E830A7 /* AppDelegate.swift */; };
 		0BEE556F24BDF9CD00E830A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE556E24BDF9CD00E830A7 /* SceneDelegate.swift */; };
 		0BEE557124BDF9CD00E830A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE557024BDF9CD00E830A7 /* ViewController.swift */; };
@@ -30,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B930F6824DC4B66007BBAB2 /* modelGoose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelGoose.swift; sourceTree = "<group>"; };
+		0BCA561A24DAEF2300711462 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
 		0BEE556924BDF9CD00E830A7 /* Honk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BEE556C24BDF9CD00E830A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BEE556E24BDF9CD00E830A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,23 +69,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BEE556024BDF9CD00E830A7 = {
-			isa = PBXGroup;
-			children = (
-				0BEE556B24BDF9CD00E830A7 /* Honk */,
-				0BEE556A24BDF9CD00E830A7 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		0BEE556A24BDF9CD00E830A7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0BEE556924BDF9CD00E830A7 /* Honk.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0BEE556B24BDF9CD00E830A7 /* Honk */ = {
+		0B930F6424DC48B8007BBAB2 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
 				0BEE558224BE4E2800E830A7 /* Honk-glass1.wav */,
@@ -98,10 +86,60 @@
 				0BEE558A24BE4E2800E830A7 /* Honk2.wav */,
 				0BEE558624BE4E2800E830A7 /* Honk3.wav */,
 				0BEE558C24BE4E2900E830A7 /* Honk4.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		0B930F6524DC4966007BBAB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B930F6824DC4B66007BBAB2 /* modelGoose.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B930F6624DC4970007BBAB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0BEE557224BDF9CD00E830A7 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0B930F6724DC497D007BBAB2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0BEE557024BDF9CD00E830A7 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0BEE556024BDF9CD00E830A7 = {
+			isa = PBXGroup;
+			children = (
+				0BCA561A24DAEF2300711462 /* README.md */,
+				0B930F6724DC497D007BBAB2 /* Controller */,
+				0B930F6624DC4970007BBAB2 /* View */,
+				0B930F6524DC4966007BBAB2 /* Model */,
+				0B930F6424DC48B8007BBAB2 /* Sounds */,
+				0BEE556B24BDF9CD00E830A7 /* Honk */,
+				0BEE556A24BDF9CD00E830A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BEE556A24BDF9CD00E830A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BEE556924BDF9CD00E830A7 /* Honk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BEE556B24BDF9CD00E830A7 /* Honk */ = {
+			isa = PBXGroup;
+			children = (
 				0BEE556C24BDF9CD00E830A7 /* AppDelegate.swift */,
 				0BEE556E24BDF9CD00E830A7 /* SceneDelegate.swift */,
-				0BEE557024BDF9CD00E830A7 /* ViewController.swift */,
-				0BEE557224BDF9CD00E830A7 /* Main.storyboard */,
 				0BEE557524BDF9D100E830A7 /* Assets.xcassets */,
 				0BEE557724BDF9D100E830A7 /* LaunchScreen.storyboard */,
 				0BEE557A24BDF9D100E830A7 /* Info.plist */,
@@ -173,6 +211,7 @@
 				0BEE559724BE4E2900E830A7 /* Honk-lid1.wav in Resources */,
 				0BEE559224BE4E2900E830A7 /* Honk-muffled3.wav in Resources */,
 				0BEE559924BE4E2900E830A7 /* Honk-muffled1.wav in Resources */,
+				0BCA561B24DAEF2300711462 /* README.md in Resources */,
 				0BEE559C24BE4E2900E830A7 /* Honk-glass4.wav in Resources */,
 				0BEE559324BE4E2900E830A7 /* Honk-muffled2.wav in Resources */,
 				0BEE557924BDF9D100E830A7 /* LaunchScreen.storyboard in Resources */,
@@ -195,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BEE557124BDF9CD00E830A7 /* ViewController.swift in Sources */,
+				0B930F6924DC4B66007BBAB2 /* modelGoose.swift in Sources */,
 				0BEE556D24BDF9CD00E830A7 /* AppDelegate.swift in Sources */,
 				0BEE556F24BDF9CD00E830A7 /* SceneDelegate.swift in Sources */,
 			);
